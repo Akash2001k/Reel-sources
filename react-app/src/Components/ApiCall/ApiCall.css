@@ -1,0 +1,43 @@
+.all_cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2{
+    margin: 20px 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.all_cards .single_card{
+    display: flex;
+    width: 90%;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.358);
+    border-radius:10px ;
+}
+.all_cards .single_card .img_div{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_cards .single_card > div >img{
+    width: 150px;
+}
+
+.all_cards button{
+   background: rgb(255, 91, 91);
+   border: none;
+   color: white;
+   padding: 9px 10px;
+   border-radius: 3px;
+   cursor: pointer;
+   width: 100%;
+}
+.all_cards .single_card .details{
+    padding: 20px;
+    width: 50%;
+}
