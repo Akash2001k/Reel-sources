@@ -1,0 +1,70 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    height:10vh;
+}
+button{
+    background: #ffffff;
+    color: rgb(67,67,67);
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    align-items: center;
+    height: 90vh;
+}
+p{
+    margin-top: -14px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+h1{
+    text-transform: uppercase;
+}
+/* Dark Mode Css */
+.dark nav{
+    background: #2f354d;
+    color: white;
+}
+.dark button{
+    color: #434343;
+}
+.dark main{
+    background: #424862;
+}
+.dark h1{
+    color: #ffb1a4;
+}
+.dark p{
+    color:white;
+    text-transform: uppercase;
+}
+/* Light Mode Css */
+.light nav{
+    color:#434343;
+    background: #e1e1e1;
+}
+.light button{
+    background: #393939;
+    color: white;
+}
+.light main{
+    background: white;
+}
+.light h1{
+    color: #f97760;
+}
+.light p{
+    color: #434343;
+    text-transform: uppercase;
+}
