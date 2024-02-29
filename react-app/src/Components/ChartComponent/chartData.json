@@ -1,0 +1,35 @@
+{
+    "sales": [
+        {
+            "Year": "2017",
+            "Mahindra": 340,
+            "Hyundai": 430
+        },
+        {
+            "Year": "2018",
+            "Mahindra": 422,
+            "Hyundai": 400
+        },
+        {
+            "Year": "2019",
+            "Mahindra": 303,
+            "Hyundai": 533
+        },
+        {
+            "Year": "2020",
+            "Mahindra": 201,
+            "Hyundai": 170
+        },
+        {
+            "Year": "2021",
+            "Mahindra": 563,
+            "Hyundai": 622
+        },
+        {
+            "Year": "2023",
+            "Mahindra": 1003,
+            "Hyundai": 883
+        }
+    ]
+    
+}
